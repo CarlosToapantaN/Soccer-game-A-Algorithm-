@@ -270,6 +270,8 @@ def main():
     alineacion2_4231 = [defensas2_4, mediocampistas2_23, delanteros2_1]
 
     try:
+
+        print("Bienvenido")
         alineacion = int(input("¿Qué alineación deseas para tu equipo? Para (4-4-2) ingresa 1 o para (4-2-3-1) ingresa 2: "))
 
         ventana = pygame.display.set_mode((ancho, alto))
